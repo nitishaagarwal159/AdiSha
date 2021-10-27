@@ -24,13 +24,14 @@
     <!-- Color Switcher CSS -->
     <link href="assets/switcher/switcher.css" rel="stylesheet">
     <link href="assets/switcher/style1.css" rel="stylesheet" id="colors">
-	
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.final-countdown.js"></script>
-	
+
+
 	<script type="text/javascript">
 $(document).ready(function() {
 $('.countdown').final_countdown({
@@ -68,7 +69,7 @@ days: {
 });
 </script>
 
-<script>
+	<script>
 // Set the date we're counting down to
 var countDownDate = new Date("Nov 14, 2021 11:59:59").getTime();
 
@@ -77,23 +78,23 @@ var x = setInterval(function() {
 
   // Get today's date and time
   var now = new Date().getTime();
-    
+
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
-    
+
   // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
   // Output the result in an element with id="demo"
   document.getElementById("days").innerHTML = days;
   document.getElementById("hours").innerHTML = hours;
   document.getElementById("minutes").innerHTML = minutes;
   document.getElementById("seconds").innerHTML = seconds;
-    
-  // If the count down is over, write some text 
+
+  // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
@@ -101,7 +102,6 @@ var x = setInterval(function() {
 }, 1000);
 </script>
 
-	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -119,10 +119,10 @@ var x = setInterval(function() {
     <!-- End Preloader  -->
 
     <!-- Audio Controls  -->
-    <audio id="my_audio" autoplay loop preload> 
-    <source src="assets/audio/love.ogg" type="audio/ogg"></source> 
-    <source src="assets/audio/love.mp3" type="audio/mpeg"></source> 
-    Your browser does not support the audio element.  
+    <audio id="my_audio" autoplay loop preload>
+    <source src="assets/audio/love.ogg" type="audio/ogg"></source>
+    <source src="assets/audio/love.mp3" type="audio/mpeg"></source>
+    Your browser does not support the audio element.
 </audio>
     <div class="audio-btn" id="play"><i class="fa fa-play" aria-hidden="true"></i></div>
     <div class="audio-btn pause" id="stop-audio"><i class="fa fa-pause" aria-hidden="true"></i></div>
@@ -156,21 +156,18 @@ var x = setInterval(function() {
             <li><a href="#story">STORY</a></li>
             <li><a href="#events">EVENTS</a></li>
             <li><a href="#gallery">GALLERY</a></li>
-            <li><a href="#pepoles">PEPOLE</a></li>
-            <li><a href="#rsvp">RSVP</a></li>
-            <li><a href="#gift">GIFT</a></li>
-            <li><a href="#journal">JOURNAL</a></li>
+            <li><a href="#pepoles">FAMILY</a></li>
         </ul>
     </div>
     <!-- End Mobile Menu -->
 
     <!-- Section Home Start -->
-    <section class="hero parallax" style="background-image:url(assets/images/IMG_20211.jpg);" data-stellar-background-ratio="0.5" id="hero">
+    <section class="background-cont hero parallax" style="background-image:url(assets/images/IMG_20123.jpg);" data-stellar-background-ratio="0.5" id="hero">
         <div class="content animation fadeInUp">
             <h4>We are getting married</h4>
             <div class="ico"> <span class="line line2"> </span> <i class="fa fa-heart" aria-hidden="true"></i> <span class="line line2"> </span> </div>
             <h2>Nitisha & Aditya</h2>
-            <span> NOVEMBER / 15TH / 2021</span>
+            <span><b>NOVEMBER / 15TH / 2021</b></span>
         </div>
     </section>
     <!-- End Section Home -->
@@ -200,7 +197,7 @@ var x = setInterval(function() {
                             <figure> <img class="img-circle" src="assets/images/bride.jpg" alt=""></figure>
                             <div class="content">
                                 <h3>Nitisha</h3>
-                                <p>Meeting him was like listening to a song for the first time and knowing it would be my favourite....</p>
+                                <p>I smile every time I look at him because I see all that I ever wanted.</p>
                                 <div class="social-icons"> <a href="https://www.facebook.com/nitisha.agarwal.7/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="https://www.instagram.com/nitisha.agarwal/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="https://www.linkedin.com/in/nitisha15/" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
                             </div>
                         </div>
@@ -235,22 +232,15 @@ var x = setInterval(function() {
 								<h5>JUNE / 13TH / 2021</h5>
                             </div>
                             <div class="item">
-                                <h4>Our First Date</h4>
-                                <p> Everything first is special; First cry, first smile, first step, first word. All such first things 
-								and so our first date is so special.</p>
+                                <h4>Our First Drive</h4>
+                                <p> Sometimes the best therapy is a Long Drive, Good Music and a Good Company.</p>
                                 <h5>JULY / 3RD / 2021</h5>
                             </div>
                             <div class="item">
-                                <h4>He Made The First Step!</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam notn bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices Ut
-                                    vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices nibh. </p>
-                                <h5>DECEMBER / 19TH / 2016</h5>
-                            </div>
-                            <div class="item">
-                                <h4>Planning Our Trip</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam notn bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices Ut
-                                    vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices nibh. </p>
-                                <h5>DECEMBER / 19TH / 2016</h5>
+                                <h4>Our First Date</h4>
+                                <p> Everything first is special; First cry, first smile, first step, first word. All such first things
+								and so our first date is so special. </p>
+                                <h5>SEPTEMBER / 15TH / 2021</h5>
                             </div>
                         </div>
                     </div>
@@ -274,9 +264,9 @@ var x = setInterval(function() {
       <div class="row-wedding">
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="box">
-            <figure><img class="img-responsive" src="assets/images/event/1.png" alt=""></figure>
+            <figure><img class="img-responsive" src="assets/images/event/ring-ceremony.jpg" alt=""></figure>
             <div class="data title-excerpt animation fadeInUp">
-              <h3>God Bharai</h3>
+              <h3>Ring Ceremony</h3>
               <h6><i class="fa fa-calendar-check-o" aria-hidden="true"></i>14/11/2021</h6>
               <h6><i class="fa fa-map-marker" aria-hidden="true"></i>5:00 PM Onwards</h6>
             </div>
@@ -303,9 +293,9 @@ var x = setInterval(function() {
           </div>
         </div>
       </div>
-	  <br>
+	  <div class="spacer"></div>
 	  <div class="row-wedding">
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="box">
             <figure><img class="img-responsive" src="assets/images/event/haldi.jpg" alt=""></figure>
             <div class="data">
@@ -315,7 +305,7 @@ var x = setInterval(function() {
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="box">
             <figure><img class="img-responsive" src="assets/images/event/raasleela.jpg" alt=""></figure>
             <div class="data">
@@ -325,19 +315,9 @@ var x = setInterval(function() {
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+		<div class="col-md-4 col-sm-6 col-xs-12">
           <div class="box">
-            <figure><img class="img-responsive" src="assets/images/event/3.png" alt=""></figure>
-            <div class="data">
-              <h3>Gaur</h3>
-              <h6><i class="fa fa-calendar-check-o" aria-hidden="true"></i>15/11/2021</h6>
-              <h6><i class="fa fa-map-marker" aria-hidden="true"></i>4:00 PM Onwards</h6>
-            </div>
-          </div>
-        </div>
-		<div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="box">
-            <figure><img class="img-responsive" src="assets/images/event/3.png" alt=""></figure>
+            <figure><img class="img-responsive" src="assets/images/event/wedding.jpg" alt=""></figure>
             <div class="data">
               <h3>Wedding Ceremony</h3>
               <h6><i class="fa fa-calendar-check-o" aria-hidden="true"></i>15/11/2021</h6>
@@ -345,12 +325,11 @@ var x = setInterval(function() {
             </div>
           </div>
         </div>
-      </div>	
+      </div>
     </div>
     <div class="spacer"></div>
 	</div>
-	<div class="map-canvas"></div>
-  
+
 </section>
     <!-- Section Events Start -->
 
@@ -359,19 +338,21 @@ var x = setInterval(function() {
 <div class="count-down-overlay">
   <div class="spacer"></div>
   <div class="container">
-    <div class="row animation fadeInUp">               
+    <div class="row animation fadeInUp">
       <div class="col-md-12">
         <div class="title">
-          <h2>Don't Miss It!</h2>
+          <h3>Don't Miss It!</h3>
 		  <br>
 		  <h4>Hero ko finally heroine mil hi gyi. Is shaadi mein dance bhi hoga, seetiyan bhi bajengi, Thumke bhi lagenge, Emotional Siyappa bhi hoga, Band Baja bhi hoga aur khushi se aankhein bhi nam hongi.</h4>
           <br>
 		  <div class="ico black"> <span class="line"> </span> <span class="line line2"> </span> <i class="fa fa-heart" aria-hidden="true"></i> <span class="line line2"> </span> <span class="line"> </span> </div>
         </div>
-        <p class="sub-head"> <h2 class="h4 animation fadeInUp">VENUE</h2>
-                            <p class="intro-text animation fadeInUp">Shri Krishna Heights, Near Kmps School,Chhatikara, Road, Vrindavan, Uttar Pradesh 281121</p>
-							<a class="button small-button lightbox mfp-iframe" target="_blank" href="https://www.google.com/maps/dir/28.4491776,78.7808256/krishna+heights+address+vrindavan/@28.0003798,77.5836801,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39736e00e1eb1403:0x9b116fe0f4755bd3!2m2!1d77.6563232!2d27.5633805?hl=en" title="Venue">View on Map</a>
-        </p>
+        <p class="sub-head"> <h3 class=" animation fadeInUp">VENUE</h3>
+                            <h4  class="intro-text animation fadeInUp">Shri Krishna Heights, Near Kmps School,Chhatikara, Road, Vrindavan, Uttar Pradesh 281121</h4>
+							<br>
+							<h4> <a class="button small-button lightbox mfp-iframe" target="_blank" href="https://www.google.com/maps/dir/28.4491776,78.7808256/krishna+heights+address+vrindavan/@28.0003798,77.5836801,9z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39736e00e1eb1403:0x9b116fe0f4755bd3!2m2!1d77.6563232!2d27.5633805?hl=en" title="Venue">View on Map</a>
+							</h4>
+	   </p>
       </div>
     </div>
   </div>
@@ -379,159 +360,66 @@ var x = setInterval(function() {
   </div>
 </section>
 
-<div class="spacer"></div>
-<section>
-            <div class="image-divider auto-height" data-stellar-background-ratio="0.5">
-
-                <div class="divider-overlay"></div>
-
-                <!--Use Center Middle Alignment to align middle the content for fixed-height parallax
-                    <div class="alignment"> 
-                    	<div class="v-align center-middle">  -->
-
-                <div class="container">
-                    <div class="row">
-                        <!-- <div class="col-md-offset-1 col-md-10 text-center">
-                            <div id="counting-wrapper" class="animation fadeInUp">
-                                <div id="counting">Counting</div>
-                            </div>
-                            <p class="animation fadeInUp">“The smallest handcuffs in the world”
-
-                            </p>
-                        </div> -->
-                       <!-- <div class="col-md-offset-2 col-md-8 text-center"> -->
-					   
-                           <div class="clock row"> 
-						 
-								<!-- days-->
-								<div class="clock-item clock-days countdown-time-value col-sm-3 col-md-3">
-								<div class="wrap">
-								<div class="inner">
-								<div id="canvas_days" class="clock-canvas"></div>
-								<div class="text">
-								<p class="val" id="days">0</p>
-								<p class="type-days type-time">DAYS</p>
-								</div>
-								</div>
-								</div>
-								</div>
-								
-								<!-- hours-->
-								<div class="clock-item clock-hours countdown-time-value col-sm-3 col-md-3">
-								<div class="wrap">
-								<div class="inner">
-								<div id="canvas_hours" class="clock-canvas"></div>
-								<div class="text">
-								<p class="val" id="hours">0</p>
-								<p class="type-hours type-time">HOURS</p>
-								</div>
-								</div>
-								</div>
-								</div>
-
-								<!-- minutes-->
-								<div class="clock-item clock-minutes countdown-time-value col-sm-3 col-md-3">
-								<div class="wrap">
-								<div class="inner">
-								<div id="canvas_minutes" class="clock-canvas"></div>
-								<div class="text">
-								<p class="val" id="minutes">0</p>
-								<p class="type-minutes type-time">MINUTES</p>
-								</div>
-								</div>
-								</div>
-								</div>
-
-								<!-- seconds -->
-								<div class="clock-item clock-seconds countdown-time-value col-sm-3 col-md-3">
-								<div class="wrap">
-								<div class="inner">
-								<div id="canvas_seconds" class="clock-canvas"></div>
-								<div class="text">
-								<p class="val" id="seconds">0</p>
-								<p class="type-seconds type-time">SECONDS</p>
-								</div>
-								</div>
-								</div>
-								</div>
-								</div>
-								
-							 </div> 
-                       </div> 
-                    </div>
-                </div>
-
-            
-        </section>
-<!-- 
-<section class="gift-registration image-divider auto-height" style="background-image:url(assets/images/slide-3.jpg);" id="gift">
-<div class="divider-overlay"></div>
-<div class="countdown-container container">
-<div class = "row">
-<div class="col-md-offset-1 col-md-10 text-center">
-                            <div id="counting-wrapper" class="animation fadeInUp">
-                                <div id="counting">Counting</div>
-                            </div>
-                        </div>
-<div class="clock row">
-
-<!-- days  
-<div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-<div class="wrap">
-<div class="inner">
-<div id="canvas_days" class="clock-canvas"></div>
-<div class="text">
-<p class="val" id="days">0</p>
-<p class="type-days type-time">DAYS</p>
-</div>
-</div>
-</div>
-</div>
-
-<!-- hours 
-
-<div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-<div class="wrap">
-<div class="inner">
-<div id="canvas_hours" class="clock-canvas"></div>
-<div class="text">
-<p class="val" id="hours">0</p>
-<p class="type-hours type-time">HOURS</p>
-</div>
-</div>
-</div>
-</div>
-
-<!-- minutes 
-<div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-<div class="wrap">
-<div class="inner">
-<div id="canvas_minutes" class="clock-canvas"></div>
-<div class="text">
-<p class="val" id="minutes">0</p>
-<p class="type-minutes type-time">MINUTES</p>
-</div>
-</div>
-</div>
-</div>
-
-<!-- seconds 
-<div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-<div class="wrap">
-<div class="inner">
-<div id="canvas_seconds" class="clock-canvas"></div>
-<div class="text">
-<p class="val" id="seconds">0</p>
-<p class="type-seconds type-time">SECONDS</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div>
--->
+    <!-- Section Countdown End -->
+	<section class="pepoles" >
+  <div class="spacer"></div>
+  <div class="container text-center">
+    <div class="row animation fadeInUp">
+      <div class="title">
+        <h2 class="main-head">Countdown</h2>
+      </div>
+	<div class ="spacer"></div>
+	<div class="text-center">
+		<div class ="clock row">
+			<div class="clock-item clock-days countdown-time-value col-md-3 col-sm-3 col-xs-3">
+		<div class="wrap">
+			<div class="inner">
+				<div id="canvas_days" class="clock-canvas"></div>
+						<div class="text">
+							<p class="val" id="days">0</p>
+							<p class="type-days type-time">DAYS</p>
+						</div>
+				</div>
+		</div>
+	</div>
+			<div class="clock-item clock-days countdown-time-value col-md-3 col-sm-3 col-xs-3">
+		<div class="wrap">
+			<div class="inner">
+				<div id="canvas_hours" class="clock-canvas"></div>
+						<div class="text">
+							<p class="val" id="hours">0</p>
+							<p class="type-days type-time">HOURS</p>
+						</div>
+				</div>
+		</div>
+	</div>
+			<div class="clock-item clock-days countdown-time-value col-md-3 col-sm-3 col-xs-3">
+		<div class="wrap">
+			<div class="inner">
+				<div id="canvas_minutes" class="clock-canvas"></div>
+						<div class="text">
+							<p class="val" id="minutes">0</p>
+							<p class="type-days type-time">MINS</p>
+						</div>
+				</div>
+		</div>
+	</div>
+			<div class="clock-item clock-days countdown-time-value col-md-3 col-sm-3 col-xs-3">
+		<div class="wrap">
+			<div class="inner">
+				<div id="canvas_seconds" class="clock-canvas"></div>
+						<div class="text">
+							<p class="val" id="seconds">0</p>
+							<p class="type-days type-time">SEC</p>
+						</div>
+				</div>
+		</div>
+	</div>
+		</div>
+	</div>
+	</div>
+  </div>
+  <div class="spacer"></div>
 </section>
 
     <!-- Section Gallery Start -->
@@ -546,19 +434,19 @@ var x = setInterval(function() {
                 <p class="sub-head animation fadeInUp"> In the end all we have left with memories. Bits and pieces of the time we've spent together. No matter how long that time was, it'll never seem like enough. </p>
                 <div class="gallery-masonry zoom-gallery">
                     <div class="col-md-4 col-sm-6 col-xs-6 item">
+                        <a href="assets/images/gallery/DSC_0208.jpg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/DSC_0208.jpg" alt="gallery"> </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 item">
                         <a href="assets/images/gallery/1.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/1.jpeg" alt="gallery"> </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-6 item">
-                        <a href="assets/images/gallery/2.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/2.jpeg" alt="gallery"> </a>
+                        <a href="assets/images/gallery/5.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/5.jpeg" alt="gallery"> </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-6 item">
-                        <a href="assets/images/gallery/3.jpg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/3.jpg" alt="gallery"> </a>
+                        <a href="assets/images/gallery/10.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/10.jpeg" alt="gallery"> </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-6 item">
-                        <a href="assets/images/gallery/7.jpg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/7.jpg" alt="gallery"> </a>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 item">
-                        <a href="assets/images/gallery/4.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/4.jpeg" alt="gallery"> </a>
+                        <a href="assets/images/gallery/7.JPG" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/7.JPG" alt="gallery"> </a>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-6 item">
                         <a href="assets/images/gallery/6.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/6.jpeg" alt="gallery"> </a>
@@ -567,12 +455,12 @@ var x = setInterval(function() {
                         <a href="assets/images/gallery/7.png" title="Into The Blue"> <img class="img-responsive" src="assets/images/gallery/7.jpg" alt="gallery"> </a>
                     </div> -->
                     <div class="col-md-4 col-sm-6 col-xs-6 item">
-                        <a href="assets/images/gallery/5.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/5.jpeg" alt="gallery"> </a>
+                        <a href="assets/images/gallery/3.jpeg" title="AdiSha"> <img class="img-responsive" src="assets/images/gallery/3.jpeg" alt="gallery"> </a>
                     </div>
                 </div>
             </div>
         </div>
-       
+
     </section>
 
     <!-- Section Gallery End -->
@@ -587,75 +475,75 @@ var x = setInterval(function() {
                     <div class="ico black"> <span class="line"> </span> <span class="line line2"> </span> <i class="fa fa-heart" aria-hidden="true"></i> <span class="line line2"> </span> <span class="line"> </span> </div>
                 </div>
                 <p class="sub-head"> Happiness is having a large, loving, caring, close-knit family. </p>
-               
+
                 <div class="pepoles-row animation fadeInUp">
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
-					
+
                         <figure><img class="img-responsive" src="assets/images/family/baba.jpeg" alt="" >
                             <div class="overlay">
 							</div>
                         </figure>
-                    
+
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
                         <figure><img class="img-responsive" src="assets/images/family/bachpan4.jpeg" alt="">
                             <div class="overlay">
-         
+
                             </div>
                         </figure>
-                     
+
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
                         <figure><img class="img-responsive" src="assets/images/family/bachpan3.jpeg" alt="">
                             <div class="overlay">
-                               
+
                             </div>
                         </figure>
-                     
+
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
                         <figure><img class="img-responsive" src="assets/images/family/bachpanPhone.jpeg" alt="">
                             <div class="overlay">
-                               
+
                             </div>
                         </figure>
-            
+
                     </div>
                 </div>
 				<div class="pepoles-row animation fadeInUp">
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
                         <figure><img class="img-responsive" src="assets/images/family/rokaFamily.jpeg" alt="">
                             <div class="overlay">
-                            </div> 
+                            </div>
                         </figure>
-                    
+
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
                         <figure><img class="img-responsive" src="assets/images/family/prewed.jpeg" alt="">
                             <div class="overlay">
-           
+
                             </div>
                         </figure>
-                     
+
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
                         <figure><img class="img-responsive" src="assets/images/family/teej.jpg" alt="">
                             <div class="overlay">
-                               
+
                             </div>
                         </figure>
-                     
+
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 box">
-                        <figure><img class="img-responsive" src="assets/images/family/shopping.jpeg" alt="">
+                        <figure><img class="img-responsive" src="assets/images/family/DSC_0117.jpg" alt="">
                             <div class="overlay">
-                              
+
                             </div>
                         </figure>
-            
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <div class="spacer"></div>
@@ -676,33 +564,7 @@ var x = setInterval(function() {
             </div>
         </div>
     </section>
-	<div class="copy-right bg-blackish">
-        <p class="text-copy-right text-center margin-remove"><span class="text-white">&copy; Design and developed by</span><a target="_blank" href="http://www.sarvodayaventures.com"> <span class="text-pink">Sarvodaya Infotech Pvt. Ltd.</span></a></p>
-    </div>
     <!-- Section Bottom End -->
-
-    <!-- Start Switcher Section -->
-    <div id="style-switcher">
-        <h2>Choose Color<a href="#"><i class="fa fa-cog fa-spin"></i></a></h2>
-        <div>
-            <ul class="colors" id="color1">
-                <li>
-                    <a href="#" class="style1"></a>
-                </li>
-                <li>
-                    <a href="#" class="style2"></a>
-                </li>
-                <li>
-                    <a href="#" class="style3"></a>
-                </li>
-                <li>
-                    <a href="#" class="style4"></a>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-    <!-- End Switcher Section -->
 
     <!-- Scripts -->
     <!-- jQuery -->
@@ -728,8 +590,6 @@ var x = setInterval(function() {
     <script type="text/javascript" src="assets/rsvp-form/js/form-scripts.js"></script>
     <!-- Custom Script -->
     <script src="assets/js/function.js"></script>
-    <!-- Color Switcher -->
-    <script src="assets/switcher/switcher.js"></script>
 </body>
 
 </html>

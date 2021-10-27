@@ -1,9 +1,9 @@
 /*
 Template Name: Newlyweds – A Modern HTML Wedding Template
-Theme URL: 
+Theme URL:
 Description: Modern HTML Wedding Template
 Author: Sego Themes
-Author URL: 
+Author URL:
 Version: 1.0
 Tags: Wedding, HTML5, CSS3, Bootstrap, Jquery
 */
@@ -28,25 +28,25 @@ Tags: Wedding, HTML5, CSS3, Bootstrap, Jquery
                    CONTENT
    ___________________________________________ */
 
-/* 01. General Styles                        
-   02. Preloader                            
-   03. Header Section                        
+/* 01. General Styles
+   02. Preloader
+   03. Header Section
        03.01 Menu Bar
 	   03.02 Side Navbar
 	   03.03. Particles
-	    
-   04. Hero Section                        
-   05. About Couple Area                                 
-   06. Story Area    
-   07. Events Area 
-   08. Countdown Area                          
-   09. Gallery Area                          
-   10. Pepoles Area                             
-   11. RSVP Area                                
-   12. Gift Area                            
-   13. Journal Area                              
-   14. Bottom Area  
-   15. Custom media query                               
+
+   04. Hero Section
+   05. About Couple Area
+   06. Story Area
+   07. Events Area
+   08. Countdown Area
+   09. Gallery Area
+   10. Pepoles Area
+   11. RSVP Area
+   12. Gift Area
+   13. Journal Area
+   14. Bottom Area
+   15. Custom media query
 
 /* _____________________________________
 
@@ -170,7 +170,7 @@ section.is-active {
 
 .parallax {
     background-size: cover;
-	
+
     position: static !important;
 }
 
@@ -746,8 +746,7 @@ section.hero .content span {
     margin: auto;
     width: 100%;
     height: 100%;
-    background: rgba(255, 110, 141, 0.3);
-	background: rgba(255, 0, 0, 0.2);
+    background: rgba(255, 110, 141, 0.6);
     content: '';
     z-index: -1;
 }
@@ -1150,7 +1149,7 @@ section.hero .content span {
 }
 
 .bottom .content .dta h6 {
-   
+
     font-family: 'Great Vibes', cursive;
     font-size: 20px;
 }
@@ -1212,7 +1211,7 @@ margin:0px 0px 0px 0px;
 	background-position: center center;
     position: static !important;
 }
-} 
+}
 
 .image-divider.auto-height {
     height: 100%;
@@ -1228,7 +1227,7 @@ margin:0px 0px 0px 0px;
     height: 100%;
     opacity: 0.3
 }
-/* Countdown End */ 
+/* Countdown End */
 
 /* _____________________________________
 
