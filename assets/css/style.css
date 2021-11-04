@@ -731,6 +731,10 @@ section.hero .content span {
 section.count-down h3 {
 	font-family: 'Great Vibes', cursive;
 }
+
+section.count-down h4 {
+	font-family: 'Lora', serif;
+}
 .count-down {
     color: #fff;
     text-align: center;
