@@ -137,6 +137,7 @@ section.is-active {
     text-align: center;
     font-family:'Lora', serif;
     color: #888;
+	font-weight: bold;
 }
 
 .owl-theme .owl-dots .owl-dot span::after {
