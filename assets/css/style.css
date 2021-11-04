@@ -65,12 +65,10 @@ ul {
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Great Vibes', cursive;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+	background-color: #faf8f8;
+    line-height: 30px;
     color: #666;
 }
 
@@ -135,7 +133,7 @@ section.is-active {
     width: 55%;
     margin: 15px auto 40px auto;
     text-align: center;
-    font-family:'Great Vibes', cursive;
+    font-family:'Montserrat', cursive;
     color: #888;
 }
 
@@ -892,6 +890,7 @@ section.hero .content span {
    _____________________________________ */
 
 .pepoles {
+	font-family: 'Great Vibes', cursive;
     background: #f6f6f6;
 }
 
