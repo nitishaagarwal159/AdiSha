@@ -135,7 +135,7 @@ section.is-active {
     width: 55%;
     margin: 15px auto 40px auto;
     text-align: center;
-    font-family:'Great Vibes', cursive;
+    font-family:'Lora', serif;
     color: #888;
 }
 
@@ -727,6 +727,9 @@ section.hero .content span {
    08. Countdown Area
    _____________________________________ */
 
+section.count-down h3 {
+	font-family: 'Great Vibes', cursive;
+}
 .count-down {
     color: #fff;
     text-align: center;
